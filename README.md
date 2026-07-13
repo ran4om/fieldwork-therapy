@@ -1,6 +1,6 @@
 # Fieldwork Therapy
 
-One-page React and Vite landing-page concept for a fictional Vienna outdoor psychotherapy practice. Its main interaction is a private route chooser based only on setting, contact preference, and timing.
+One-page React and Vite landing-page concept for a fictional Vienna outdoor psychotherapy practice. The private three-step route chooser now appears in the opening viewport with explicit progress, a visible answer trail, back and reset controls, a practical-details shortcut, and a plain-language result.
 
 ## Run
 
@@ -18,3 +18,4 @@ Production check: `npm run build`.
 - The chooser never asks for symptoms, diagnosis, or personal history.
 - A direct immediate-support branch shows Austrian emergency and crisis resources.
 - The practice name, practitioner, and contact address are fictional. The crisis numbers shown are real Austrian public-service numbers.
+- Automated axe testing reports zero accessibility violations.
